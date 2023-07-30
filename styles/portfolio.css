@@ -7,7 +7,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin:0px 100px;
+    padding:50px 100px;
 }
 .btn-praimary{
     width: 150px;
