@@ -1,0 +1,217 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin:0px 100px;
+}
+.btn-praimary{
+    width: 150px;
+    height: 64px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FD6E0A;
+}
+.btn-secundary{
+    width: 150px;
+    height: 64px;
+    color: #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid #FD6E0A;
+}
+h2{
+    font-size: 40px;
+}
+.text-praimary{
+    color: yellowgreen;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    margin-left: 20px;
+}
+/* header bg */
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+    margin-bottom: 70px;
+}
+/* banner styles */
+.banner{
+    margin: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-sub-title{
+    color: #474747;
+    font-size: 35px;
+    font-weight: 600;
+}
+.banner-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 700;
+}
+.banner-discription{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0px;
+}
+/* main section */
+main{
+    max-width: 1130px;
+    margin: 0 auto;
+}
+/* About me styles */
+.about{
+    margin-top: 70px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.saction-title{
+    text-align: center;
+    padding: 30px 0;
+    color: var(--dark-01, #181818);
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-discription{
+    text-align: center;
+    color: var(--dark-03, #757575);
+    font-size: 18px;
+    line-height: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+.info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-discription{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+/* What i do styals */
+.skill-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.what-i-do-description{
+    color: var(--dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.skill{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-left: 20px;
+}
+.skill-title{
+    color: var(--dark-01, #181818);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 25px 0;
+}
+.skill-discription{
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    line-height: 28px; 
+}
+/* Resume stylse */
+.resume .resuie-title{
+    color: var(--dark-02, #474747);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.resume-content{
+    display: flex;
+    gap: 45px;
+    margin-top: 30px;
+}
+.resume .title{
+    color: var(--dark-02, #474747);
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume .sub-title{
+    color: var(--dark-03, #757575);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.resume .description{
+    color: var(--dark-03, #757575);
+    font-weight: 400;
+    line-height: 28px;
+}
+hr{
+    margin: 30px 0;
+}
+.resume-btn{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* Contact styles */
+.contact{
+    display: flex;
+    gap: 140px;
+    padding: 130px 240px;
+    background-color: #FFF8F3;
+}
+.contact input[type='text'], input[type='email'], textarea{
+    margin-bottom: 24px;
+    width: 100%;
+    border: 0;
+    padding: 18px 30px;
+}
+.contact-title{
+    color: var(--dark-01, #181818);
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.contact-description{
+    color: var(--dark-02, #474747);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.contact a img{
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+}
